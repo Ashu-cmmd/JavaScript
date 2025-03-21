@@ -47,18 +47,18 @@ const chai =  () => {  // arrow function
 // chai()
 
 // const addTwo =(num1 , num2) => {
-//     return num1+num2
+//     return num1+num2               // basics arrow function 
 // }
-// const addTwo =(num1 , num2) =>   num1+num2 // Implicit arrow  retuen function : where no need of "return" and bracket "{ } " 
+// const addTwo =(num1 , num2) =>   num1+num2 // Implicit arrow  return function : where no need of "return" and bracket "{ } " 
 
-// const addTwo =(num1 , num2) =>   (num1+num2 )  // Implicit arrow retuen function  If you write in {} bracket then you need to write return ; if you write in () bracket then you don't need to write in return 
+// const addTwo =(num1 , num2) =>   (num1+num2 )  // Implicit arrow return function  If you write in {} bracket then you need to write return ; if you write in () bracket then you don't need to write in return 
 
-const addTwo = (num1 , num2) => ({ username  : "hitesh"})
+const addTwo = (num1 , num2) => ({ username  : "hitesh"}) // To return a object you need to put the object in the parentheses else it will return (undefine)
 
 console.log(addTwo(4,3));
 
 
 // const myarray =[1,2,3,4,5]
 
-// myarray.forEach(() =>)
+// myarray.forEach(() => ())
 
