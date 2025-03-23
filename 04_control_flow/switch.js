@@ -7,25 +7,25 @@
 //         break;
 // }
 
-const month = 3 
+const month = "May"
 
 switch (month) {
-    case 1:
+    case "january":
         console.log("january")
         break;
-    case 2:
+    case "feb":
         console.log("feb")
         break;
-    case 3:
+    case "march":
         console.log("march")
         break;
-    case 4:
+    case "April":
         console.log("April")
         break;
-    case 5:
+    case "May":
         console.log("May")
         break;
-    case 6:
+    case June:
         console.log("June")
         break;
 
@@ -34,3 +34,5 @@ switch (month) {
         
         break;
 }
+
+// if we do't use "break" after the match it will execute all case except default case .
