@@ -1,18 +1,26 @@
 const myObject ={
     js : 'Javascript',
     cpp :"c++",
+    rb:"ruby",
     swift:"Swift by apple"
 }
 
-for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
+for (const key in myObject) {  
+    //console.log(key)   // It will print only the key from the Object
     
+}
+
+
+for (const key in myObject) {  // It will give both key and Value of the object ..
+    //console.log(`${key} shortcut is for ${myObject[key]}`);
+
 }
 
 const programming = ['js',"rb","py","java",'cpp']
 
-for (const key in programming) {
-    // console.log(programming[key]);
+for (const key in programming) {   //
+    // console.log(programming[key]);  
+    // console.log(key) // Only print the key of the Array ... which is 0 1 2 3 4 5...
     
 }
 
