@@ -10,7 +10,13 @@ const coding = ["js","ruby","java","python","cpp"]
    
 // } )
 
-// coding.forEach( (item)=> {
+//Normal Arrow function 
+/*
+    const greet = () =>{
+        }
+*/
+
+// coding.forEach( (item)=> {  //  using arrow function ....
 //     console.log(item);
 // })
 
@@ -19,7 +25,7 @@ const coding = ["js","ruby","java","python","cpp"]
     
 // }
 
-// coding.forEach(printMe)
+// coding.forEach(printMe)  // just give the reference of the function don't call the function
 
 // coding.forEach( (item,index,arr)=> {
 //     console.log(item,index,arr);
